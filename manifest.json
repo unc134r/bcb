@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Bring Classic Back",
+  "version": "0.0.1",
+  "description": "Revert to the old style searches on your favourite search engine",
+
+  "icons": { 
+           "48": "icon1.png",
+          "128": "icon2.png" },
+          
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["content.js"],
+    "matches": ["https://www.google.com/*"]
+  }]
+
+}
