@@ -1,3 +1,4 @@
+console.log('started');
 document.querySelectorAll(".r").forEach(
     index=>{
 	    	if (index.firstElementChild.childElementCount == 3){
